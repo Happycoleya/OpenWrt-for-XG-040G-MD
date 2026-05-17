@@ -1,10 +1,10 @@
 # OpenWrt for XG-040G-MD
 
-OpenWrt firmware for NOKIA BELL XG-040G-MD
+OpenWrt firmware for NOKIA BELL XG-040G-MD/XG-140G-MD
 
 源仓库采用：[https://github.com/xiangtailiang/openwrt](https://github.com/xiangtailiang/openwrt)
 
-- 已完美适配 SkyHigh 闪存，运行稳定（采用官方 Robust Read Workaround 补丁）
+- 已完美适配 SkyHigh 闪存，运行稳定（采用官方 Robust Read Workaround 补丁）#本人未测试
 - Image 基于 OpenWrt 25.12 稳定版或 main (snapshot) 分支构建
 - 包含 luci，尽可能保持小体积，不包含其他不必要的包
 
@@ -14,7 +14,6 @@ OpenWrt firmware for NOKIA BELL XG-040G-MD
 - **基础界面**: LuCI (支持 HTTPS), 中文语言包
 - **默认主题**: Argon 主题 (含设置页), 保留原生 Bootstrap
 - **网络与安全**: 防火墙 (基于 nftables), dnsmasq (DHCP/DNS/IPv6)
-- **科学上网**: HomeProxy, PassWall (含 xray-core)
 
 ## 刷机教程
 
